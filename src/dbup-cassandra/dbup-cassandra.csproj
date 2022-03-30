@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>dbup_cassandra</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CassandraCSharpDriver" Version="3.17.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dbup-core\dbup-core.csproj" />
+  </ItemGroup>
+
+</Project>
