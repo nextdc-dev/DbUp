@@ -19,5 +19,7 @@ DbUp supports a number of different databases, the platforms are also listed und
 * Firebird
     - &gt;= .NET 4.0
 * Oracle
+* Cassandra 3.4
+    - &gt;= .NET Standard 2.0
 
 If you would like to see a new database or a new target platform, please [submit a pull request](./contributing.md)

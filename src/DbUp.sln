@@ -48,6 +48,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteSampleApplication", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebirdSampleApplication", "Samples\FirebirdSampleApplication\FirebirdSampleApplication.csproj", "{5FC18CC7-2C66-408C-9BEE-D9E9CFA8ECD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbup-cassandra", "dbup-cassandra\dbup-cassandra.csproj", "{FD1B526F-67F0-47CA-9A42-F8EF7B4C4CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{5FC18CC7-2C66-408C-9BEE-D9E9CFA8ECD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC18CC7-2C66-408C-9BEE-D9E9CFA8ECD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC18CC7-2C66-408C-9BEE-D9E9CFA8ECD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1B526F-67F0-47CA-9A42-F8EF7B4C4CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1B526F-67F0-47CA-9A42-F8EF7B4C4CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1B526F-67F0-47CA-9A42-F8EF7B4C4CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1B526F-67F0-47CA-9A42-F8EF7B4C4CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
